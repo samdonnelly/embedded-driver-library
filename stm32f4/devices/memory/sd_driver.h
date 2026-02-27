@@ -50,7 +50,7 @@ extern "C" {
 #define SD_MODE_OEWR     (FA_OPEN_EXISTING | FA_WRITE | FA_READ)    // 0x03 
 
 // Functions 
-#define f_unmount(path) f_mount(NULL, path, SD_MOUNT_NOW)     // Unmount card 
+#define sd_unmount(path) f_mount(NULL, path, SD_MOUNT_NOW)     // Unmount card 
 
 //=======================================================================================
 
